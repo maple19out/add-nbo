@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
 
 	uint32_t res = n1 + n2;
 
-	printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", n1, n1, n2, n2, res, res);
+	printf("%u(0x%x) + %u(0x%x) = %u(0x%x)\n", n1, n1, n2, n2, res, res);
 
 	return 0;
 }
